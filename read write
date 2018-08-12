@@ -1,0 +1,5 @@
+file=open("123.txt","w")
+file.write("one hundred and twenty three")
+file.close()
+file=open("123.txt","r")
+print file.read()
